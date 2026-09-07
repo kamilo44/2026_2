@@ -1,1 +1,6 @@
 venv_2026_2
+
+.idea
+.env
+.visualstudio
+.history
