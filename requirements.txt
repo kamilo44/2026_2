@@ -3,3 +3,5 @@ tabulate
 matplotlib
 imageio
 imageio-ffmpeg
+seaborn
+pandas
