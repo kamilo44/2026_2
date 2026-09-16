@@ -7932,8 +7932,8 @@ es una Cadena de Markov.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Tradicionalmente los caballos inician en $b1, g1, b8$ y $g8$, supongamos que $X_0 = b1$, luego el espacio de estados $S$ se define como parejas $x,y$ tales que  $x\in \{ a,b,c,d,e,f,h \}$ y  $ 1&lt; y \leq 8$</p>
-<p>para saber cuantos estados tenemos hagamos una función que recorre el tablero.</p>
+<p>Tradicionalmente los caballos inician en $b1, g1, b8$ y $g8$, supongamos que $X_0 = b1$, luego el espacio de estados $S$ se define como parejas $x,y$ tales que  $x\in \{ a,b,c,d,e,f,h \}$ y  $ 1&lt; y \leq 8$.</p>
+<p>Para saber cuantos estados tenemos hagamos una función que recorre el tablero.</p>
 </div>
 </div>
 </div>
@@ -7961,7 +7961,7 @@ es una Cadena de Markov.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>vamos a utilizar dos aproach para este proyecto, uno iterativo por cada una de las casillas y otro recursivo</p>
+<p>Vamos a utilizar dos aproach para este proyecto, uno iterativo por cada una de las casillas y otro recursivo.</p>
 </div>
 </div>
 </div>
@@ -8102,7 +8102,7 @@ es una Cadena de Markov.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>entonces todas las posiciones del tablero de ajedrez se pueden alcanzar desde la posición inicial (2,1) usando movimientos de caballo.</p>
+<p>Entonces todas las posiciones del tablero de ajedrez se pueden alcanzar desde la posición inicial (2,1) usando movimientos de caballo.</p>
 </div>
 </div>
 </div>
@@ -8124,7 +8124,7 @@ es una Cadena de Markov.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>dado que ya tenemos estos resultados, podemos generar la tabla.</p>
+<p>Dado que ya tenemos estos resultados, podemos generar la tabla.</p>
 </div>
 </div>
 </div>
@@ -8257,7 +8257,7 @@ es una Cadena de Markov.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Para responder los problemas c) y d) construimos un generador de código tex</p>
+<p>Para responder los problemas c) y d) construimos un generador de código <code>tex</code>.</p>
 </div>
 </div>
 </div>
@@ -8736,7 +8736,7 @@ $P_{h8,y} = \begin{cases} \frac{1}{2}, &amp; y = g6, f7 \\ 0, &amp; \text{caso c
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Ahora hagamos las especificas</p>
+<p>Ahora hagamos las específicas.</p>
 </div>
 </div>
 </div>
@@ -8920,7 +8920,7 @@ $P_{e5,y} = \begin{cases} \frac{1}{8}, &amp; y = f7, f3, d7, d3, g6, g4, c6, c4 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Ahora veamos la matriz de transición con los porcentajes coorespondientes</p>
+<p>Ahora veamos la matriz de transición con los porcentajes correspondientes.</p>
 </div>
 </div>
 </div>
@@ -9002,10 +9002,10 @@ $P_{e5,y} = \begin{cases} \frac{1}{8}, &amp; y = f7, f3, d7, d3, g6, g4, c6, c4 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Ahora bien, ¿Es simétrica esta matriz de transición?,
-A pesar de que si existe una probabilidad de transición de un estado x a un estado y, entonces también existe una probabilidad de transición de y a x y de que moverse en caballo es reversible, que sea simetrica también es la cantidad de vecinos que tiene cada estado.
-Si tuvieramos un tablero infinito, entonces la matriz de transición sería simétrica, ya que todos los estados tendrían 8 vecinos.
+A pesar de que si existe una probabilidad de transición de un estado $x$ a un estado $y$, entonces también existe una probabilidad de transición de $y$ a $x$ y de que moverse en caballo es reversible, que sea simétrica también es la cantidad de vecinos que tiene cada estado.
+Si tuvieramos un tablero infinito, entonces la matriz de transición sería simétrica, ya que todos los estados tendrían $8$ vecinos.
 Sin embargo, en un tablero finito, los estados en los bordes y esquinas tienen menos vecinos, lo que rompe la simetría de la matriz de transición.</p>
-<p>Tan simple como ver que $(a3,b1) \neq (b1,a3)$ en nuestra matriz de transición. pues $a3$ tiene $4$ vecinos y $b1$ solo tiene 3.</p>
+<p>Tan simple como ver que $(a3,b1) \neq (b1,a3)$ en nuestra matriz de transición, pues $a3$ tiene $4$ vecinos y $b1$ solo tiene $3$.</p>
 </div>
 </div>
 </div>
@@ -9027,7 +9027,13 @@ Sin embargo, en un tablero finito, los estados en los bordes y esquinas tienen m
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>$P(X_1=c2)$,  $P(X_1=c2,X_2=d4,X_3=e6,X_4=c7)$,  $P(X_3=e2,X_2=d4∣X_1=b3)$,  $P(X_{n+2}=e3∣X_n=a3)$.</p>
+<ul>
+<li>$P(X_1 = c2)$</li>
+<li>$P(X_1 = c2, X_2 = d4, X_3 = e6, X_4 = c7)$</li>
+<li>$P(X_3 = e2, X_2 = d4 \mid X_1 = b3)$</li>
+<li>$P(X_{n+2} = e3 \mid X_n = a3)$</li>
+</ul>
+<p>Debe escribir los cálculos utilizados, no solo presentar el resultado.</p>
 </div>
 </div>
 </div>
@@ -9039,6 +9045,122 @@ Sin embargo, en un tablero finito, los estados en los bordes y esquinas tienen m
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="Soluci%C3%B3n">Solución<a class="anchor-link" href="#Soluci%C3%B3n">¶</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=aa762767">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Para todos los resultados tenemos en cuenta que la relación entre estados es bidireccional. y que podemos partir de cualquier lado. con una probabilidad inicial uniforme, es decir tenemos $\mu_{casilla} = \frac{1}{64}$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b447f89d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="1.--$P(X_1-=-c2)$">1.  $P(X_1 = c2)$<a class="anchor-link" href="#1.--$P(X_1-=-c2)$">¶</a></h4><p>Usando probabilidad total</p>
+<p>$$P(X_1 = c2) = \sum_{x \in S} P(X_1 = c2 \mid X_0 = x) \cdot P(X_0 = x) = \frac{1}{64} \sum_{x \in S} P_{xc2}$$</p>
+<p>Dado que la relación entre estados es bidireccional, las casillas $x$ desde las cuales el caballo puede llegar a $c2$ en un movimiento son exactamente las casillas de su vecindario $N(c2) = \{a1, a3, b4, d4, e1, e3\}$. Para cualquier otra casilla $x \notin N(c2)$, la probabilidad $P_{xc2} = 0$.</p>
+<p>Calculamos la probabilidad de transición $P_{xc2} = \frac{1}{|N(x)|}$ para cada una de estas casillas de origen:</p>
+<ul>
+<li>$|N(a1)| = 2 \implies P_{a1, c2} = \frac{1}{2}$</li>
+<li>$|N(a3)| = 4 \implies P_{a3, c2} = \frac{1}{4}$</li>
+<li>$|N(b4)| = 6 \implies P_{b4, c2} = \frac{1}{6}$</li>
+<li>$|N(d4)| = 8 \implies P_{d4, c2} = \frac{1}{8}$</li>
+<li>$|N(e1)| = 4 \implies P_{e1, c2} = \frac{1}{4}$</li>
+<li>$|N(e3)| = 8 \implies P_{e3, c2} = \frac{1}{8}$</li>
+</ul>
+<p>Sumamos las probabilidades condicionales correspondientes:</p>
+<p>$$\sum_{x \in N(c2)} P_{xc2} = \frac{1}{2} + \frac{1}{4} + \frac{1}{6} + \frac{1}{8} + \frac{1}{4} + \frac{1}{8} = \frac{17}{12}$$</p>
+<p>Sustituyendo en la fórmula de la probabilidad total:</p>
+<p>$$P(X_1 = c2) = \frac{1}{64} \cdot \frac{17}{12} = \frac{17}{768}$$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=032e458e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="2.-$P(X_1-=-c2,-X_2-=-d4,-X_3-=-e6,-X_4-=-c7)$">2. $P(X_1 = c2, X_2 = d4, X_3 = e6, X_4 = c7)$<a class="anchor-link" href="#2.-$P(X_1-=-c2,-X_2-=-d4,-X_3-=-e6,-X_4-=-c7)$">¶</a></h4><p>Por la <strong>propiedad de Markov</strong>, multiplicamos la probabilidad del primer estado por la secuencia de probabilidades de transición consecutivas:</p>
+<p>$$P(X_1=c2, X_2=d4, X_3=e6, X_4=c7) = P(X_1 = c2) \cdot P_{c2, d4} \cdot P_{d4, e6} \cdot P_{e6, c7}$$</p>
+<p>Evaluando cada término según la cantidad de movimientos $|N(x)|$:</p>
+<ul>
+<li><strong>Probabilidad inicial en $c2$:</strong> $P(X_1 = c2) = \frac{17}{768}$ por el punto anterior</li>
+<li>$|N(c2)| = 6 \implies P_{c2, d4} = \frac{1}{6}$</li>
+<li>$|N(d4)| = 8 \implies P_{d4, e6} = \frac{1}{8}$</li>
+<li>$|N(e6)| = 8 \implies P_{e6, c7} = \frac{1}{8}$</li>
+</ul>
+<p>Sustituyendo en la fórmula:</p>
+<p>$$P(X_1=c2, X_2=d4, X_3=e6, X_4=c7) = \frac{17}{768} \cdot \frac{1}{6} \cdot \frac{1}{8} \cdot \frac{1}{8} = \frac{17}{294912}$$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2cd852e2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="3.-$P(X_3-=-e2,-X_2-=-d4-%5Cmid-X_1-=-b3)$">3. $P(X_3 = e2, X_2 = d4 \mid X_1 = b3)$<a class="anchor-link" href="#3.-$P(X_3-=-e2,-X_2-=-d4-%5Cmid-X_1-=-b3)$">¶</a></h4><p>Esto simplifica las cuentas dado que estamos fijando $X_1$, por ley de probabilidad condicional</p>
+<p>$$P(X_3 = e2, X_2 = d4 \mid X_1 = b3) = P(X_3 = e2 \mid X_2 = d4, X_1 = b3) \cdot P(X_2 = d4 \mid X_1 = b3)$$</p>
+<p>Por la <strong>propiedad de Markov</strong> (la transición a $X_3$ depende únicamente de $X_2$ y no de $X_1$):</p>
+<p>$$P(X_3 = e2 \mid X_2 = d4, X_1 = b3) = P(X_3 = e2 \mid X_2 = d4) = P_{d4, e2}$$</p>
+<p>Por lo tanto, solo debemos calcular $ P_{d4, e2}$:</p>
+<ul>
+<li>$|N(b3)| = 6 \implies P_{b3, d4} = \frac{1}{6}$</li>
+<li>$|N(d4)| = 8 \implies P_{d4, e2} = \frac{1}{8}$</li>
+</ul>
+<p>$$P(X_3 = e2, X_2 = d4 \mid X_1 = b3) = \frac{1}{6} \cdot \frac{1}{8} = \frac{1}{48}$$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5c5e1189">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="4.-$P(X_%7Bn+2%7D-=-e3-%5Cmid-X_n-=-a3)$">4. $P(X_{n+2} = e3 \mid X_n = a3)$<a class="anchor-link" href="#4.-$P(X_%7Bn+2%7D-=-e3-%5Cmid-X_n-=-a3)$">¶</a></h4><p>Esta probabilidad representa la transición en dos pasos de $a3$ a $e3$ podemos hacer el estado intermedio como $k = X_{n+1}$:</p>
+<p>$$P(X_{n+2} = e3 \mid X_n = a3) = \sum_{k \in S} P(X_{n+1} = k \mid X_n = a3) \cdot P(X_{n+2} = e3 \mid X_{n+1} = k) = \sum_{k \in S} P_{a3, k} \cdot P_{k, e3}$$</p>
+<p>Primero veamos los posibles estados intermediarios $k$ deben cumplir que sean alcanzables desde $a3$ ($k \in N(a3)$) y que desde ellos se pueda alcanzar $e3$ ($k \in N(e3)$):</p>
+<ul>
+<li><strong>Vecindario de origen:</strong> $N(a3) = \{b1, b5, c2, c4\}$</li>
+<li><strong>Vecindario de destino:</strong> $N(e3) = \{c2, c4, d1, d5, f1, f5, g2, g4\}$</li>
+</ul>
+<p>La intersección de ambos conjuntos es:</p>
+<p>$$K = N(a3) \cap N(e3) = \{c2, c4\}$$</p>
+<p>Ahora bien tenemos 2 opciones:</p>
+<ol>
+<li><p><strong>Ruta por $k = c2$:</strong></p>
+<ul>
+<li>$P_{a3, c2} = \frac{1}{|N(a3)|} = \frac{1}{4}$</li>
+<li>$P_{c2, e3} = \frac{1}{|N(c2)|} = \frac{1}{6}$</li>
+<li>Probabilidad de ruta: $P_{a3, c2} \cdot P_{c2, e3} = \frac{1}{4} \cdot \frac{1}{6} = \frac{1}{24}$</li>
+</ul>
+</li>
+<li><p><strong>Ruta por $k = c4$:</strong></p>
+<ul>
+<li>$P_{a3, c4} = \frac{1}{|N(a3)|} = \frac{1}{4}$</li>
+<li>$P_{c4, e3} = \frac{1}{|N(c4)|} = \frac{1}{8}$</li>
+<li>Probabilidad de ruta: $P_{a3, c4} \cdot P_{c4, e3} = \frac{1}{4} \cdot \frac{1}{8} = \frac{1}{32}$</li>
+</ul>
+</li>
+</ol>
+<p>Finalmente como son 2 rutas independientes, se hace con la probabilidad total, asi pues
+$$P(X_{n+2} = e3 \mid X_n = a3) = \frac{1}{24} + \frac{1}{32} = \frac{4}{96} + \frac{3}{96} = \frac{7}{96}$$</p>
 </div>
 </div>
 </div>
@@ -9575,7 +9697,7 @@ Sin embargo, en un tablero finito, los estados en los bordes y esquinas tienen m
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>¿Se tendrán resultados similares si el caballo inicia en la casilla $d5$? Justifique su respuesta.</p>
 <ul>
-<li>Se tienen los mismos resultados, se evidenció esto al realizar la ejecución del algoritmo iniciadno en la posición $d5$.</li>
+<li>Se tienen los mismos resultados, se evidenció esto al realizar la ejecución del algoritmo iniciando en la posición $d5$.</li>
 </ul>
 </div>
 </div>
