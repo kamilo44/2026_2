@@ -4,4 +4,4 @@ venv_2026_2
 .env
 .visualstudio
 .history
-.pdf
+*.pdf
