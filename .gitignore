@@ -5,4 +5,5 @@ venv_2026_2
 .visualstudio
 .history
 *.pdf
-Computacion_Paralela_y_Distribuida/
+./Computacion_Paralela_y_Distribuida/*
+
